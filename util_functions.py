@@ -45,7 +45,7 @@ def get_full_name(short_code):
     "SEA" : "Seattle Seahawks",
     "TB" : "Tampa Bay Buccaneers",
     "TEN" : "Tennessee Titans",
-    "WAS" : "Washington ********" }
+    "WSH" : "Washington Football Team" }
     return full_names[short_code]
 
 

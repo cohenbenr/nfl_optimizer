@@ -16,7 +16,7 @@ def transform_elo_data(rawdata):
             t = t - datetime.timedelta(days=7)
         return t
 
-    mydata = rawdata[rawdata['season'] == 2019]
+    mydata = rawdata[rawdata['season'] == max(rawdata['season'])]
     mydata = mydata[mydata['playoff'].isna()]
     mydata = mydata.reset_index()
 

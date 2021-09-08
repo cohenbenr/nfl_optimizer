@@ -29,7 +29,7 @@ app.title = 'BGSE NFL Survivor Pool Optimiser'
 
 
 # Get data
-getLatestELOData()
+#getLatestELOData()
 
 mydata = pd.read_csv('data/elo/nfl_elo.csv')
 static_df = pd.read_csv('data/nfl_lookup_table.csv')
