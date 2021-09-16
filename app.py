@@ -25,11 +25,11 @@ from get_elo_data import *
 
 app = dash.Dash('NFL Survivor Pool Optimiser')
 # app.config.suppress_callback_exceptions = True
-app.title = 'BGSE NFL Survivor Pool Optimiser'
+app.title = 'NFL Survivor Pool Optimiser'
 
 
 # Get data
-#getLatestELOData()
+getLatestELOData()
 
 mydata = pd.read_csv('data/elo/nfl_elo.csv')
 static_df = pd.read_csv('data/nfl_lookup_table.csv')
